@@ -1,0 +1,162 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body
+{
+    background-size: cover;
+    
+}
+.videoselector
+{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+}
+div
+{
+    
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+button
+{
+    background: transparent;
+}
+button a
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.tr h1
+{
+    font-size: 4.5em;
+    margin-bottom: 0;
+}
+.tr p
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+.tr button
+{
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color:  rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 10%;
+    border-color: white;
+}
+/*.overlay
+{
+    width: 100%;
+        height: 100%
+        top:0;
+    left: 0;
+            
+   position: absolute;
+    background-color: rgba(0,0,0,0.2);
+  
+}*/
+.i
+{
+    
+    border-radius: 70%;
+    height: 250px;
+    margin-bottom: 0
+
+}
+
+.container .left
+{
+    margin-bottom: 0;
+    float: left;
+     width: 50%;
+    height: 400px;
+}
+.container.right
+{
+    float: right;
+     width: 50%;
+    height: 400px;
+}
+.t h2,h3
+{
+    font-size: 2em;
+     margin-bottom: 10px;
+    margin-top: 5px;
+    margin-top: 0;
+}
+.t p
+{
+    font-size: 1.5em;
+    margin-bottom: 10x;
+}
+
+
+body {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double white;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+p span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /* Clip Background Image */
+  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

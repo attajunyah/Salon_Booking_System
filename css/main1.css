@@ -1,0 +1,85 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+    
+}
+
+.section-contact input[type="submit"]
+{
+    text-align: center !important;
+    border: none !important;
+    height: 35px !important;
+    width: 170px !important;
+    background: lightcoral !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+   
+}
+
+.section-contact input[type="submit"]:hover
+{
+    
+    background-color: crimson !important;
+    
+}
+
+.section-contact input[type="text"]:focus
+{
+    
+  
+    border-bottom: 1px solid lightcoral !important;
+}
+.section-contact textarea:focus
+{
+   
+    border-bottom: 1px solid lightcoral !important;
+}
+
+.section-data input[type="submit"]
+{
+    text-align: center !important;
+    border: none !important;
+    height: 35px !important;
+    width: 170px !important;
+    background: crimson !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+}
+
+.section-data input[type="submit"]:hover
+{
+    cursor:pointer;
+    background-color: orangepink !important;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img/loginbcpic1.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
