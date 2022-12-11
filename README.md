@@ -43,6 +43,7 @@ This project requires xampp/wamp or any server.
 
 ## Move the folder (Salon_Booking_System) to htdocs 
 Mac : /Applications/XAMPP/xamppfiles/htdocs
+
 Windows : C:\xampp\htdocs 
 
 ## Turn on MySQL Database and Apache Web Server 
